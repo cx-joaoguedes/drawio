@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T23:05:16.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gfkpLQMjUfMHjukW8UYw" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-08T23:14:26.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="V-GkTvdORiysuOvXwUiM" version="24.6.4" type="github" pages="4">
   <diagram name="Upload Results" id="YByiRGs1S5qQSoG0bhu4">
     <mxGraphModel dx="2068" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -380,6 +380,131 @@
         </mxCell>
         <mxCell id="ftJtjpPrm9_q0C4cr3a7-21" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#ffffff;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="405" y="760" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ac9ejxZgNqiOZN9KuZ4Q" name="Page-4">
+    <mxGraphModel dx="1723" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Za7pTMdpGMoygshJjw1D-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="850" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="79.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-4" target="Za7pTMdpGMoygshJjw1D-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-4" value="Trigger on PR complete with pr number, commit, version, branch, author and timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-5" target="Za7pTMdpGMoygshJjw1D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-5" value="Run CI projects" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-7" value="Upload results with metadata for each project" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="480" as="sourcePoint" />
+            <mxPoint x="850" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-10" value="Main Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="28" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-11" value="Feature Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="430" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-13" target="Za7pTMdpGMoygshJjw1D-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-25" value="commit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Za7pTMdpGMoygshJjw1D-24">
+          <mxGeometry x="-0.2544" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-15" value="Manual trigger with pr number, commit, version, branch, author and timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-16" value="Run CI projects" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-17" value="Upload results with metadata for each project" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="77.33334859212239" as="targetPoint" />
+            <mxPoint x="425" y="525" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-23" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-26" value="Manual trigger with pr number, new commit, version, branch, author and new timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-27" value="Run CI projects" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-28" value="Upload results with metadata for each project" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="80" as="targetPoint" />
+            <mxPoint x="550" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="520" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="565" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-34" target="Za7pTMdpGMoygshJjw1D-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-34" value="Trigger on PR complete with pr number, commit, version, branch, author and timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Za7pTMdpGMoygshJjw1D-36" target="Za7pTMdpGMoygshJjw1D-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-36" value="Run CI projects" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-37" value="Upload results with metadata for each project" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-44" value="On PR complete delete feature branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Za7pTMdpGMoygshJjw1D-45" value="On branch delete trigger status deletion on vorpal db" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="660" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
