@@ -185,7 +185,11 @@
           <mxGeometry x="300" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wno2BWJetaqZX8nvHIoc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wno2BWJetaqZX8nvHIoc-14" target="Wno2BWJetaqZX8nvHIoc-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Wno2BWJetaqZX8nvHIoc-14" value="Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="560" width="120" height="60" as="geometry" />
